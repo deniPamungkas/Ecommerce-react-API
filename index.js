@@ -25,7 +25,7 @@ mongoose
 app.use(express.json());
 app.use(
   cors({
-    origin: ["https://furnirodenipamungkas.vercel.app"],
+    origin: "https://furnirodenipamungkas.vercel.app",
     credentials: true,
   })
 );
